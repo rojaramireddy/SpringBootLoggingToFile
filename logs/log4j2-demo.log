@@ -1,0 +1,102 @@
+2018-12-20 09:22:51.469  INFO WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplication              : Starting Log4j2DemoApplication on WINCTRL-537PP50 with PID 11408 (C:\Users\Dheeraj\Downloads\spring-boot-log4j-2-demo-master\target\classes started by Dheeraj in C:\Users\Dheeraj\Downloads\spring-boot-log4j-2-demo-master)
+2018-12-20 09:22:51.906 DEBUG WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplication              : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-12-20 09:22:51.908  INFO WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplication              : No active profile set, falling back to default profiles: default
+2018-12-20 09:22:53.118  INFO WINCTRL-537PP50 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a675056: startup date [Thu Dec 20 09:22:52 IST 2018]; root of context hierarchy
+2018-12-20 09:23:07.431  INFO WINCTRL-537PP50 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2018-12-20 09:23:07.661  INFO WINCTRL-537PP50 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-20 09:23:07.830  INFO WINCTRL-537PP50 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-12-20 09:23:07.832  INFO WINCTRL-537PP50 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-12-20 09:23:07.884  INFO WINCTRL-537PP50 --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;E:\EclipseWorkspace\maven\bin;E:\EclipseWorkspace\maven\bin;C:\Users\Dheeraj\AppData\Roaming\npm;C:\Users\Dheeraj\Desktop;;.]
+2018-12-20 09:23:08.490  INFO WINCTRL-537PP50 --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-12-20 09:23:08.491  INFO WINCTRL-537PP50 --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 15614 ms
+2018-12-20 09:23:08.819  INFO WINCTRL-537PP50 --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-12-20 09:23:08.829  INFO WINCTRL-537PP50 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-20 09:23:08.831  INFO WINCTRL-537PP50 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-20 09:23:08.831  INFO WINCTRL-537PP50 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-20 09:23:08.832  INFO WINCTRL-537PP50 --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-20 09:23:09.696  INFO WINCTRL-537PP50 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a675056: startup date [Thu Dec 20 09:22:52 IST 2018]; root of context hierarchy
+2018-12-20 09:23:10.383  INFO WINCTRL-537PP50 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-20 09:23:10.387  INFO WINCTRL-537PP50 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-20 09:23:10.503  INFO WINCTRL-537PP50 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-20 09:23:10.503  INFO WINCTRL-537PP50 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-20 09:23:10.610  INFO WINCTRL-537PP50 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-20 09:23:11.148  INFO WINCTRL-537PP50 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-20 09:23:11.234  INFO WINCTRL-537PP50 --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-12-20 09:23:11.709 ERROR WINCTRL-537PP50 --- [           main] o.a.c.c.StandardService                  : Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:255)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.log4j2demo.Log4j2DemoApplication.main(Log4j2DemoApplication.java:15)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 more
+2018-12-20 09:23:11.784  INFO WINCTRL-537PP50 --- [           main] o.a.c.h.Http11NioProtocol                : Pausing ProtocolHandler ["http-nio-8080"]
+2018-12-20 09:23:11.785  INFO WINCTRL-537PP50 --- [           main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2018-12-20 09:23:12.055  INFO WINCTRL-537PP50 --- [           main] o.a.c.u.LifecycleBase                    : The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-12-20 09:23:12.056  INFO WINCTRL-537PP50 --- [           main] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+2018-12-20 09:23:12.056  INFO WINCTRL-537PP50 --- [           main] o.a.c.h.Http11NioProtocol                : Destroying ProtocolHandler ["http-nio-8080"]
+2018-12-20 09:23:12.121  INFO WINCTRL-537PP50 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-20 09:23:12.126 ERROR WINCTRL-537PP50 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-12-20 09:23:12.129  INFO WINCTRL-537PP50 --- [           main] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a675056: startup date [Thu Dec 20 09:22:52 IST 2018]; root of context hierarchy
+2018-12-20 09:23:12.133  INFO WINCTRL-537PP50 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-12-20 09:32:12.975  INFO WINCTRL-537PP50 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.log4j2demo.Log4j2DemoApplicationTests], using SpringBootContextLoader
+2018-12-20 09:32:12.997  INFO WINCTRL-537PP50 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.example.log4j2demo.Log4j2DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-20 09:32:12.998  INFO WINCTRL-537PP50 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.log4j2demo.Log4j2DemoApplicationTests]: Log4j2DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-20 09:32:13.312  INFO WINCTRL-537PP50 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.log4j2demo.Log4j2DemoApplication for test class com.example.log4j2demo.Log4j2DemoApplicationTests
+2018-12-20 09:32:13.642  INFO WINCTRL-537PP50 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-20 09:32:13.695  INFO WINCTRL-537PP50 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7068e664, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@60db1c0e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3e78b6a5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@769a1df5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@41f69e84, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7975d1d8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2438dcd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24105dc5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5167f57d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@64b0598]
+2018-12-20 09:32:14.437  INFO WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplicationTests         : Starting Log4j2DemoApplicationTests on WINCTRL-537PP50 with PID 10220 (started by Dheeraj in C:\Users\Dheeraj\Downloads\spring-boot-log4j-2-demo-master)
+2018-12-20 09:32:14.443 DEBUG WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplicationTests         : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-12-20 09:32:14.444  INFO WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplicationTests         : No active profile set, falling back to default profiles: default
+2018-12-20 09:32:14.829  INFO WINCTRL-537PP50 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@74a6f9c1: startup date [Thu Dec 20 09:32:14 IST 2018]; root of context hierarchy
+2018-12-20 09:32:51.588  INFO WINCTRL-537PP50 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@74a6f9c1: startup date [Thu Dec 20 09:32:14 IST 2018]; root of context hierarchy
+2018-12-20 09:32:51.912  INFO WINCTRL-537PP50 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-20 09:32:51.916  INFO WINCTRL-537PP50 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-20 09:32:52.042  INFO WINCTRL-537PP50 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-20 09:32:52.042  INFO WINCTRL-537PP50 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-20 09:32:52.161  INFO WINCTRL-537PP50 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-20 09:32:53.167  INFO WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplicationTests         : Started Log4j2DemoApplicationTests in 39.345 seconds (JVM running for 45.099)
+2018-12-20 09:32:53.171 DEBUG WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplication              : Debugging log
+2018-12-20 09:32:53.171  INFO WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplication              : Info log
+2018-12-20 09:32:53.171  WARN WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplication              : Hey, This is a warning!
+2018-12-20 09:32:53.171 ERROR WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplication              : Oops! We have an Error. OK
+2018-12-20 09:32:53.171 FATAL WINCTRL-537PP50 --- [           main] c.e.l.Log4j2DemoApplication              : Damn! Fatal error. Please fix me.
+2018-12-20 09:32:54.627  INFO WINCTRL-537PP50 --- [       Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@74a6f9c1: startup date [Thu Dec 20 09:32:14 IST 2018]; root of context hierarchy
